@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+}
+
+nav a {
+    color: #00ffcc;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff6600;
+}
+
+section {
+    margin: 40px;
+    padding: 20px;
+}
+
+img {
+    width: 50%;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #333;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.game-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Ensures responsiveness */
+}
+
+.game {
+    background: #222;
+    border-radius: 10px;
+    width: 200px; /* Set a fixed width */
+    height: 300px; /* Set a fixed height to make all boxes uniform */
+    overflow: hidden; /* Ensures images don't overflow */
+}
+
+.game img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image fully covers the box */
+    border-radius: 10px;
+}
+
+
+.game p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.game:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+}
